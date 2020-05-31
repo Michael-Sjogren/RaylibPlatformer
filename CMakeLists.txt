@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(raylibgame main.cpp)
 find_package(raylib REQUIRED)
-target_link_libraries(raylibgame raylib)
+target_link_libraries(raylibgame PUBLIC raylib)
